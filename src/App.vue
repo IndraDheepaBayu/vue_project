@@ -5,7 +5,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <div class="foto">
+    <img alt="Vue logo" class="logo" src="@/assets/IMG_20220824_072233-removebg-preview (1) (1).png" />
+</div>
 
     <div class="wrapper">
       <HelloWorld msg="Indra Dheepa Bayu" />
@@ -13,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Profile</RouterLink>
         <RouterLink to="/skill">Skill</RouterLink>
+        <RouterLink to="/portoView">Portofolio</RouterLink>
       </nav>
     </div>
   </header>
@@ -24,6 +27,21 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+.foto{
+  background-color: blue;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin-right: 3rem;
+  margin-left: -5rem;
+}
+
+img{
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
 }
 
 .logo {

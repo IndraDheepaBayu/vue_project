@@ -1,15 +1,17 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import HIcon from './icons/IconHTTML.vue'
+import CIcon from './icons/IconCSS.vue'
+import FIcon from './icons/IconFigma.vue'
+import JIcon from './icons/IconJS.vue'
+import BIcon from './icons/IconB.vue'
+import LIcon from './icons/IconLaravel.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <HIcon />
     </template>
     <div class="div">
       <div class="flex">
@@ -24,7 +26,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <CIcon />
     </template>
     <div class="div">
       <div class="flex">
@@ -39,7 +41,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <FIcon />
     </template>
     <div class="div">
       <div class="flex">
@@ -54,7 +56,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <JIcon />
     </template>
     <div class="div">
       <div class="flex">
@@ -66,6 +68,37 @@ import SupportIcon from './icons/IconSupport.vue'
       </div>
     </div>  
   </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <BIcon />
+    </template>
+    <div class="div">
+      <div class="flex">
+        <h3>BOOSTRAP</h3>
+        <h3>70%</h3>
+      </div>
+      <div class="skills_bar">
+        <span class="skills_percetage skills_b"></span>
+      </div>
+    </div>  
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <LIcon />
+    </template>
+    <div class="div">
+      <div class="flex">
+        <h3>LARAVEL</h3>
+        <h3>70%</h3>
+      </div>
+      <div class="skills_bar">
+        <span class="skills_percetage skills_l"></span>
+      </div>
+    </div>  
+  </WelcomeItem>
+
 </template>
 
 <style>
@@ -111,7 +144,8 @@ h3{
   width: 80%;
 }
 
-.skills_js{
+.skills_js, .skills_b, .skills_l{
   width: 70%;
 }
+
 </style>
