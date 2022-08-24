@@ -13,7 +13,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Personal Profile</template>
-    <p>Hello</p>
+    <p>My name is Indra Dheepa Bayu, <br> I am a beginner web developer <br> who is studying at SMK TARUNA BHAKTI</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -35,7 +35,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Experience</template>
     <ul>
       <li>Scholl Agenda Guru</li>
-      <li>Food Delivery Design</li>
+      <li>Website Sarpras</li>
     </ul>
   </WelcomeItem>
 

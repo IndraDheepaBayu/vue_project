@@ -31,7 +31,7 @@ import LIcon from './icons/IconLaravel.vue'
     <div class="div">
       <div class="flex">
         <h3>CSS</h3>
-        <h3>85%</h3>
+        <h3>80%</h3>
       </div>
       <div class="skills_bar">
         <span class="skills_percetage skills_css"></span>
@@ -46,7 +46,7 @@ import LIcon from './icons/IconLaravel.vue'
     <div class="div">
       <div class="flex">
         <h3>FIGMA</h3>
-        <h3>80%</h3>
+        <h3>70%</h3>
       </div>
       <div class="skills_bar">
         <span class="skills_percetage skills_figma"></span>
@@ -61,7 +61,7 @@ import LIcon from './icons/IconLaravel.vue'
     <div class="div">
       <div class="flex">
         <h3>JAVA SCRIPT</h3>
-        <h3>70%</h3>
+        <h3>55%</h3>
       </div>
       <div class="skills_bar">
         <span class="skills_percetage skills_js"></span>
@@ -76,7 +76,7 @@ import LIcon from './icons/IconLaravel.vue'
     <div class="div">
       <div class="flex">
         <h3>BOOSTRAP</h3>
-        <h3>70%</h3>
+        <h3>50%</h3>
       </div>
       <div class="skills_bar">
         <span class="skills_percetage skills_b"></span>
@@ -138,13 +138,21 @@ h3{
   width: 85%;
 }
 .skills_css{
-  width: 85%;
-}
-.skills_figma{
   width: 80%;
 }
+.skills_figma{
+  width: 70%;
+}
 
-.skills_js, .skills_b, .skills_l{
+.skills_js{
+  width: 55%;
+}
+
+.skills_b{
+  width: 50%;
+}
+
+.skills_l{
   width: 70%;
 }
 
