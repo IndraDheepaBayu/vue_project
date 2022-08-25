@@ -24,7 +24,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <h4>2020-2023</h4>
     <a href="http://portal.smktarunabhakti.net/login/index.php" target="_blank">SMK TARUNA BHAKTI</a>
     <h4>
-      Web Developer
+      Front End Web Developer
     </h4>
   </WelcomeItem>
 
